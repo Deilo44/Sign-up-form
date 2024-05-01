@@ -68,6 +68,11 @@ input:invalid {
     border-color : red;
 }
 
+input:focus {
+    background-color: rgb(156, 116, 116);
+    border-color: blueviolet;
+}
+
 #forms {
     display: flex;
     flex-direction: column;
