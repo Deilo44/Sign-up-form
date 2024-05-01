@@ -1,7 +1,7 @@
 body {
     display: grid;
-    grid-template-columns: 700px 1400px;
-    grid-template-rows: 300px 300px 300px 300px 500px;
+    grid-template-columns: 800px 1400px;
+    grid-template-rows: 500px 300px 500px 500px 500px;
 }
 
 .logo {
@@ -12,6 +12,16 @@ body {
     justify-content: space-evenly;
     background-color: rgba(6, 11, 15, 0.692);
 
+}
+
+#declare {
+    grid-row: 5/6;
+    grid-column: 1/2;
+    color: rgb(10, 0, 0);
+    font-size: xx-large;
+    margin-left: 250px;
+    margin-top: 200px;
+    
 }
 
 #ice {
@@ -39,29 +49,29 @@ span {
 
 #two {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    flex-direction: column;
     grid-row: 1/-1;
     grid-column: 2/3;
     background-color: rgb(83, 202, 238);
 }
 
+#para1 {
+    margin-top: 300px;
+    line-height: 60px;
+}
 p {
     margin-left: 50px;
     margin-top: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: xx-large;
 }
-input :invalid {
+input:invalid {
     border-color : red;
-}
-input :valid {
-    border-color: green;
 }
 
 #forms {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color: rgb(106, 209, 235);
 
 }
@@ -99,16 +109,22 @@ input :valid {
 #names {
     display: flex;
     flex-direction: row;
+    justify-content: left;
+    gap: 100px;
 }
 
 #mail {
     display: flex;
     flex-direction: row;
+    justify-content: left;
+    gap: 100px;
 }
 
 #pass {
     display: flex;
     flex-direction: row;
+    justify-content: left;
+    gap: 100px;
 }
 
 button {
@@ -132,7 +148,27 @@ button:hover {
 }
 
 #confirm {
-    margin-left: 50px;
+    margin-left: 15px;
     margin-top: 10px;
     font-size: x-large;
+}
+label {
+    display: block;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    border-color: aquamarine;
+}
+
+#Password-Checker {
+    font-size: x-large;
+}
+
+a:hover {
+    color: rgb(126, 126, 245);
 }
