@@ -32,7 +32,66 @@ span {
 }
 
 #two {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
     grid-row: 1/-1;
     grid-column: 2/3;
     background-color: aquamarine;
 }
+
+p {
+    margin-left: 50px;
+}
+input :invalid {
+    border-color : red;
+}
+input :valid {
+    border-color: green;
+}
+
+#forms {
+    display: flex;
+    flex-direction: column;
+}
+
+#names {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#mail {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#pass {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#submit-button {
+    margin-left: 50px;
+}
+
+#names {
+    display: flex;
+    flex-direction: row;
+}
+
+#mail {
+    display: flex;
+    flex-direction: row;
+}
+
+#pass {
+    display: flex;
+    flex-direction: row;
+}
+
