@@ -1,6 +1,6 @@
 body {
     display: grid;
-    grid-template-columns: 800px 1400px;
+    grid-template-columns: 800px 1900px;
     grid-template-rows: 500px 300px 500px 500px 500px;
 }
 
@@ -68,9 +68,14 @@ input:invalid {
     border-color : red;
 }
 
+input:valid {
+    border-color: none;
+    outline: 5px solid rgb(32, 241, 13) ;
+}
+
 input:focus {
-    background-color: rgb(156, 116, 116);
-    border-color: blueviolet;
+    background-color: rgb(235, 225, 225);
+    outline: 5px solid rgb(27, 63, 219);
 }
 
 #forms {
@@ -176,4 +181,24 @@ input {
 
 a:hover {
     color: rgb(126, 126, 245);
+}
+
+input[type='text'] {
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+input[type='number'] {
+    font-size: x-large;
+    
+}
+
+input[type='email'] {
+    font-size: x-large;
+    
+}
+
+input[type='password'] {
+    font-size: x-large;
 }
